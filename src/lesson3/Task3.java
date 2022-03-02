@@ -25,10 +25,17 @@ public class Task3 {
         String herName = reader.readLine();
         message4(hisName, herName);
 
-        String nameMsg5 = reader.readLine();;
+        String nameMsg5 = reader.readLine();
         String name2Msg5 = reader.readLine();
         String name3Msg5 = reader.readLine();
         message5(nameMsg5, name2Msg5, name3Msg5);
+        System.out.println("Жить хорошо, а хорошо жить еще лучше");
+        severalMessages();
+
+        String salary = reader.readLine();
+        salaryMessage(salary);
+
+
     }
 
     public static void message(String name, String age) {
@@ -49,6 +56,15 @@ public class Task3 {
 
     public static void message5(String name1, String name2, String name3) {
         System.out.println(name1 + " + " + name2 + " + " + name3 + "  = Чистая любовь, да-да!");
+    }
+
+    public static void severalMessages() {
+        for (int i = 0; i < 10; i++)
+        System.out.println("Я не хочу изучать Java, я хочу большую зарплату");
+    }
+
+    public static void salaryMessage(String number) {
+        System.out.println("Я буду зарабатывать $" + number + " в час");
     }
 
 }

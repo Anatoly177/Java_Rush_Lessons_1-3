@@ -13,11 +13,11 @@ public class Task1 {
         int s = 5;
         int t = 6;
         int x = 7;
-//        tenMessages("Когда я вырасту, то хочу быть паровым экскаватором!");
-//        System.out.println("Happy New Year");
-//        System.out.println("s = " + s);
-//        System.out.println("t = " + t);
-//        System.out.println("x = " + x);
+        tenMessages("Когда я вырасту, то хочу быть паровым экскаватором!");
+        System.out.println("Happy New Year");
+        System.out.println("s = " + s);
+        System.out.println("t = " + t);
+        System.out.println("x = " + x);
     }
 
     public static void tenMessages (String text) {
